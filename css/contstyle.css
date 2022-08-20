@@ -325,6 +325,9 @@
 .color-green{
   color: green;
 }
+.colour-email{
+  color: #ee4758;
+}
 
 @media (max-width: 968px) {
   .contuct-item{
