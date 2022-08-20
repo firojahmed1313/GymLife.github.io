@@ -1,1 +1,132 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    <title>Services</title>
+</head>
+<body>
+    <nav id="navber">
+        <div class="logo">
+            <img src="img/Logo1.png" alt="HEADER IMAGE" />
+        </div>
+        <ul>
+            <li class="items"><a href="#">HOME</a></li>
+            <li class="items"><a href="./ABOUT.html">ABOUT</a></li>
+            <li class="items"><a href="./TRAINER.html">TRAINER</a></li>
+            <li class="items"><a href="./contuct.html">CONTACT</a></li>
+            <li class="btn1"><a href="#">Schedule a workout</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1>Services</h1>
+    </div>
+    <div class="container">
+        <div class="top">
+            <h2>Equipments</h2>
+            <div class="equip">
+                    <div class="box1">
+                        <img src="img/equip1.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ad!</p>
+                    </div>
+                    <div class="box1">
+                        <img src="img/equip2.jpg" alt="">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="box1">
+                        <img src="img/equip3.jpg" alt="">
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="top-mid">
+            <h2>Weight lifting Equipments</h2>
+            <div class="lift">
+                <div class="box2">
+                    <img src="img/lift1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="box2">
+                    <img src="img/lift2.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="box2">
+                    <img src="img/lift3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed?</p>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <h2>Group Training</h2>
+            <div class="group">
+                <div class="box3">
+                    <img src="img/group1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, suscipit?</p>
+                </div>
+                <div class="box3">
+                    <img src="img/group2.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="box3">
+                    <img src="img/group3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis perferendis illo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bot-mid">
+            <h2>Personal Trainer</h2>
+            <div class="pers">
+                <div class="box4">
+                    <img src="img/pers1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box4">
+                    <img src="img/pers2.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="box4">
+                    <img src="img/pers3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, sequi?</p>
+                </div>
+            </div>
+        </div>
+        <div class="bot">
+            <h2>Healthy Environment</h2>
+            <div class="heal">
+                <div class="box5">
+                    <img src="img/heal1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis natus cumque eveniet.</p>
+                </div>
+                <div class="box5">
+                    <img src="img/heal2.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box5">
+                    <img src="img/heal3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, iure!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon fab fa-instagram"></i></a><a href="#"><i class="icon fab fa-snapchat"></i></a><a href="#"><i class="icon fab fa-twitter"></i></a><a href="#"><i class="icon fab fa-facebook "></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">GymLife &copy; 2022, All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
