@@ -1,132 +1,306 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/service.css">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer">
-    <title>Services</title>
-</head>
-<body>
-    <nav id="navber">
-        <div class="logo">
-            <img src="img/Logo1.png" alt="HEADER IMAGE" />
-        </div>
-        <ul>
-            <li class="items"><a href="#">HOME</a></li>
-            <li class="items"><a href="./ABOUT.html">ABOUT</a></li>
-            <li class="items"><a href="./TRAINER.html">TRAINER</a></li>
-            <li class="items"><a href="./contuct.html">CONTACT</a></li>
-            <li class="btn1"><a href="#">Schedule a workout</a></li>
-        </ul>
-    </nav>
-    <div>
-        <h1>Services</h1>
-    </div>
-    <div class="container">
-        <div class="top">
-            <h2>Equipments</h2>
-            <div class="equip">
-                    <div class="box1">
-                        <img src="img/equip1.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ad!</p>
-                    </div>
-                    <div class="box1">
-                        <img src="img/equip2.jpg" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    </div>
-                    <div class="box1">
-                        <img src="img/equip3.jpg" alt="">
-                        <p>Lorem ipsum dolor sit.</p>
-                    </div>
-            </div>
-        </div>
-        <div class="top-mid">
-            <h2>Weight lifting Equipments</h2>
-            <div class="lift">
-                <div class="box2">
-                    <img src="img/lift1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <div class="box2">
-                    <img src="img/lift2.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="box2">
-                    <img src="img/lift3.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed?</p>
-                </div>
-            </div>
-        </div>
-        <div class="mid">
-            <h2>Group Training</h2>
-            <div class="group">
-                <div class="box3">
-                    <img src="img/group1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, suscipit?</p>
-                </div>
-                <div class="box3">
-                    <img src="img/group2.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <div class="box3">
-                    <img src="img/group3.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis perferendis illo.</p>
-                </div>
-            </div>
-        </div>
-        <div class="bot-mid">
-            <h2>Personal Trainer</h2>
-            <div class="pers">
-                <div class="box4">
-                    <img src="img/pers1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="box4">
-                    <img src="img/pers2.jpg" alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <div class="box4">
-                    <img src="img/pers3.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, sequi?</p>
-                </div>
-            </div>
-        </div>
-        <div class="bot">
-            <h2>Healthy Environment</h2>
-            <div class="heal">
-                <div class="box5">
-                    <img src="img/heal1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis natus cumque eveniet.</p>
-                </div>
-                <div class="box5">
-                    <img src="img/heal2.jpg" alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="box5">
-                    <img src="img/heal3.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, iure!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="#"><i class="icon fab fa-instagram"></i></a><a href="#"><i class="icon fab fa-snapchat"></i></a><a href="#"><i class="icon fab fa-twitter"></i></a><a href="#"><i class="icon fab fa-facebook "></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright">GymLife &copy; 2022, All Rights Reserved</p>
-        </footer>
-    </div>
-</body>
-</html>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/service-back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#navber {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    /* border: 2px solid brown;*/
+}
+#navber::before {
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0%;
+    left: 0%;
+}
+  /* logo */
+.logo img {
+    height: 80px;
+    width: 80px;
+    /*  border: 2px solid yellow;*/
+    margin-left: 60px;
+}
+  /* li*/
+#navber ul {
+    display: flex;
+    padding-left: 30px;
+    margin-left: 80px;
+    /* border: 2px solid green;*/
+}
+#navber ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+#navber ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: aliceblue;
+    font-family: "Bree Serif", serif;
+}
+#navber .items a:hover {
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+}
+#navber .btn1 {
+    width: fit-content;
+    border-radius: 16px;
+    padding: 5px 0px;
+    background-color: rgb(122, 82, 160);
+    border: none;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.750);
+    text-align: center;
+    padding: 10px;
+}
+h1:hover{
+    color: rgb(0, 187, 255);
+    cursor: pointer;
+    transition: all 2s;
+}
+h2{
+    color: white;
+    font-size: 35px;
+    padding: 5px 30px 5px 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    height: 240px;
+    width: 340px;
+    border-radius: 10px;
+}
+.top{
+    min-height: 70vh;
+    align-items: center;
+    background-color:rgba(112, 128, 144, 0.700);
+    padding-top: 10px;
+}
+.top h2{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.750);
+}
+.equip{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: min-content;
+    width: min-content;
+}
+.box1:hover{
+    box-shadow: 20px 20px 20px black;
+    transition: all 0.7s;
+}
+.top-mid{
+    min-height: 70vh;
+    align-items: center;
+    background-color:rgba(0, 191, 255, 0.600);
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+.top-mid h2{
+    color:rgba(255, 255, 0, 0.900);
+    background-color:rgba(148, 0, 211, 0.750);
+}
+.lift{
+    display: flex;
+    justify-content: space-around;
+}
+.box2{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: min-content;
+    width: min-content;
+}
+.box2:hover{
+    box-shadow: 20px 20px 20px black;
+    transition: all 0.7s;
+}
+.mid{
+    min-height: 70vh;
+    align-items: center;
+    background-color: rgba(76, 0, 130, 0.700);
+    padding-top: 10px;
+    border-top: 2px solid black;
+}
+.mid h2{
+    background-color: rgba(0, 0, 0, 0.600);
+}
+.group{
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: min-content;
+    width: min-content;
+}
+.box3:hover{
+    box-shadow: 20px 20px 20px black;
+    transition: all 0.7s;
+}
+.bot-mid{
+    min-height: 70vh;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.600);
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+.bot-mid h2{
+    color: indigo;
+    background-color: rgba(0, 139, 139, 0.750);
+}
+.pers{
+    display: flex;
+    justify-content: space-around;
+}
+.box4{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: min-content;
+    width: min-content;
+}
+.box4:hover{
+    box-shadow: 20px 20px 20px black;
+    transition: all 0.7s;
+}
+.bot{
+    min-height: 70vh;
+    align-items: center;
+    background-color:rgba(46, 139, 86, 0.700);
+    border-top: 2px solid black;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+}
+.bot h2{
+    color: coral;
+    background-color: rgba(47, 79, 79, 0.800);
+}
+.heal{
+    display: flex;
+    justify-content: space-around;
+}
+.box5{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: min-content;
+    width: min-content;
+}
+.box5:hover{
+    box-shadow: 20px 20px 20px black;
+    transition: all 0.7s;
+}
+.footer-basic {
+    padding: 10px 0;
+    background-color: #312e2e;
+    color: #ffffff;
+  }
+  .list-inline{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-basic li {
+    padding: 0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+  }
+@media (max-width: 968px) {
+    /* nav ber */
+    #navber {
+      flex-direction: column;
+    }
+    #navber ul li a {
+      padding: 0px 10px;
+    }
+    #navber ul li {
+      padding: 0px 1px;
+    }
+    #navber ul {
+      margin-left: 10px;
+      padding-left: 00px;
+      /* border: 2px solid green;*/
+    }
+  }
